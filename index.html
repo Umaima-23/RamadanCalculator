@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="main">
+     
+       <audio id="myaudio" autoplay loop>
+        <source src="./audio/Surah Al-Baqarah_ Verse 185 _ سورة البقرة__ _ Ramadan _ Quran _ Ubayd Rabbani - Ubayd Rabbani - SoundLoadMate.com.mp3">
+  Your browser does not support the audio element.
+</audio>
+<button class="btn-style" onclick="document.getElementById('myAudio').play(); this.style.display='none';">
+  ▶️ Play Albaqra 185
+</button>
+        <div class="heading">
+            <h1>How many days till ramadan 2026?</h1>
+        </div>
+        <div id="countdown">
+            <div class="time-box">
+                <span id="days">0</span>
+                <p>Days</p>
+            </div>
+            <div class="time-box">
+                <span id="hours">0</span>
+                <p>Hours</p>
+            </div>
+            <div class="time-box">
+                <span id="minutes">0</span>
+                <p>Minutes</p>
+            </div>
+            <div class="time-box">
+                <span id="seconds">0</span>
+                <p>Seconds</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
